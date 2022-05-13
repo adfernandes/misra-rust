@@ -7,5 +7,5 @@ macro_rules! val {
 }
 
 fn main() {
-    let val!: i16 = 1; //~ ERROR expected open delimiter
+    let val!: i16 = 1; //~ ERROR expected one of `(`, `[`, or `{`, found `:`
 }
