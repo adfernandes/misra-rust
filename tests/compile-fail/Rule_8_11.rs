@@ -1,4 +1,4 @@
-pub const arr: [i32] = []; //~ ERROR the size for value values of type `[i32]` cannot be known at compilation time
-                           //~^ ERROR mismatched types
+pub const arr: [i32] = []; //~ ERROR the size for values of type `[i32]` cannot be known at compilation time [E0277]
+
 
 fn main() {}

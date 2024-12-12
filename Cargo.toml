@@ -1,11 +1,11 @@
 [package]
 name = "misra_rust"
-version = "0.1.0"
+version = "0.2.0"
+edition = "2021"
 authors = ["Shea Newton <snewton@polysync.io>"]
 
-[dependencies.clippy]
-version = "=0.0.210"
+
 
 [dev-dependencies.compiletest_rs]
-version = "=0.3.11"
+version = "=0.7.1"
 

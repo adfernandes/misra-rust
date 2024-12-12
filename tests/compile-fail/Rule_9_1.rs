@@ -3,5 +3,5 @@
 fn main() {
     let x: u16;
     let y = x + 1;
-    //~^ ERROR use of possibly uninitialized variable: `x`
+    //~^ ERROR use of possibly-uninitialized variable: `x` [E0381]
 }
